@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India</title>
+    <style>
+        #parent {
+            height: 14350px;
+            width: 1000px;
+            background-color: beige;
+            border: 3px solid black;
+            margin: auto;
+            background-image: url();
+        }
+        
+        #titel {
+            height: 200px;
+            width: 1000px;
+            border: 1px solid black;
+            background-image: url(./IcredibleIndia-EN-Preview.png);
+            background-position: center;
+        }
+        
+        .child {
+            height: 600px;
+            width: 800px;
+            border: 2px solid black;
+            background-color: white;
+            margin: 10px 100px;
+            overflow: scroll;
+        }
+        /* .child1 {
+            height: 400px;
+            width: 400px;
+            margin: auto;
+        }
+        
+        .child2 {
+            height: 400px;
+            width: 400px;
+            margin: auto;
+        } */
+        /* the for Photos */
+        
+        #img1 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Taj\ Mahal.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: auto;
+        }
+        
+        #img2 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Ellora-caves.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img3 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Ajanta\ Caves.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img4 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Lonar\ lake.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img5 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Konark-Sun-Temple-or-Black-Pagoda-The-Chariot-of-Sun.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img6 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./hawa-mahal-jaipur.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img7 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Qutub_Minar.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img8 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Hampi.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img9 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Khajuraho\,MP.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img10 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Golden\ Temple.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img11 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Nalanda_Archaeological_Site.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img12 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Lotus\ Temple\ Panorama\ Bijay\ chaurasia\ Wikimedia.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img13 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Red\ Fort.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img14 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./meenakshi_amman_temple_tank.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img15 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Charminar.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img16 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Gateway-to-India_0.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img17 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./bahubali-gomateshwara-statue-landscape-karkala.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img18 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Statue\ of\ Unity.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img19 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./jantar-mantar-jaipur-entry-fee-timings-holidays-reviews-header.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img20 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./India-Gate-Delhi.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img21 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./DhudhSagar.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img22 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Mysore_Palace.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        
+        #img23 {
+            height: 400px;
+            width: 400px;
+            background-image: url(./Sanchi.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="titel"></div>
+
+        <div class="child" id="box">
+            <div class="child1" id="img1"> </div>
+            <div class="child2" id="box2">
+                <h1><b>Taj Mahal:- </b></h1>
+                <p>The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal;
+                    it also houses the tomb of Shah Jahan himself.
+                    <br>India is a land of rich culture, diversity, topography, and history, which makes it a wonderful country, wherein every state there is something worth seeing. The historical monuments and ancient architecture, all add to the beauty
+                    of the country with an abundance of history to tell. Thus with the public polls, India has decided the seven wonders of India, which everyone should explore and know about. As it is important to get acquainted with the rich heritage
+                    of India and the cultures and traditions associated with it.
+                    <br> The seven wonders of India, are the marvelous masterpieces of architecture, which will take you back in time and make you mesmerize the olden days. The wonders include a monolith, places of worship, even a university and a mausoleum.
+                    Let's explore and cherish the beauty of the past in today's time.
+                    <br>White marble mausoleum Taj Mahal is located in Agra, Uttar Pradesh, India, which is only 200 Km from New Delhi, the capital of India. It was built by Mughal emperor Shah Jahan in memory of his third wife, Mumtaz Mahal. The Taj
+                    Mahal is widely recognized as "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage". Around 20,000 people worked day and night for twenty-two years to complete construction of the
+                    Taj Mahal. The Taj Mahal was constructed using the best quality marble from Rajasthan, Tibet, Afghanistan, and China. At different times of the day, the Taj Mahal appears to be in a different color. Some believe that these changing
+                    colors depict the changing moods of a woman. It's not just a Seven Wonders of India, but it is also listed among the Seven Wonders of Medieval World and very popular among the Indian and foreign tourists. </p>
+            </div>
+        </div>
+
+        <div class="child" id="box">
+            <div class="child1" id="img2"></div>
+            <div class="child2" id="box2">
+                <h1><b>Ellora Caves:-</b></h1>
+                <p>Ellora Caves, Ellora also spelled Elura, a series of 34 magnificent rock-cut temples in northwest-central Maharashtra state, western India. They are located near the village of Ellora, 19 miles (30 km) northwest of Aurangabad and 50 miles
+                    (80 km) southwest of the Ajanta Caves. Spread over a distance of 1.2 miles (2 km), the temples were cut from basaltic cliffs and have elaborate facades and interior walls. The Ellora complex was designated a UNESCO World Heritage site
+                    in 1983. The 12 Buddhist caves (in the south) date from about 200 BCE to 600 CE, the 17 Hindu temples (in the centre) date from about 500 to 900 CE, and the 5 Jain temples (in the north) date from about 800 to 1000. The Hindu caves
+                    are the most dramatic in design, and the Buddhist caves contain the simplest ornamentation. Ellora served as a group of monasteries (viharas) and temples (caityas); some of the caves include sleeping cells that were carved for itinerant
+                    monks.
+                    <br> The most remarkable of the cave temples is Kailasa (Kailasanatha; cave 16), named for the mountain in the Kailas Range of the Himalayas where the Hindu god Shiva resides. Unlike other temples at the site, which were first delved
+                    horizontally into the rock face, the Kailasa complex was excavated downward from a basaltic slope and is therefore largely exposed to sunlight. Construction of the temple in the 8th century, beginning in the reign of Krishna I (c.
+                    756–773), involved the removal of 150,000 to 200,000 tons of solid rock. The complex measures some 164 feet (50 metres) long, 108 feet (33 metres) wide, and 100 feet (30 metres) high and has four levels, or stories. It contains elaborately
+                    carved monoliths and halls with stairs, doorways, windows, and numerous fixed sculptures. One of its better-known decorations is a scene of Vishnu transformed into a man-lion and battling a demon. Just beyond the entrance, in the main
+                    courtyard, is a monument to Shiva’s bull Nandi. Along the walls of the temple, at the second-story level, are life-size sculptures of elephants and other animals. Among the depictions within the halls is that of the 10-headed demon
+                    king Ravana shaking Kailasa mountain in a show of strength. Erotic and voluptuous representations of Hindu divinities and mythological figures also grace the temple. Some features have been damaged or destroyed over the centuries,
+                    such as a rock-hewn footbridge that once joined two upper-story thresholds.The Vishvakarma cave (cave 10) has carvings of Hindu and Buddhist figures as well as a lively scene of dancing dwarfs. Notable among the Jain temples is cave
+                    32, which includes fine carvings of lotus flowers and other elaborate ornaments. Each year the caves attract large crowds of religious pilgrims and tourists. The annual Ellora Festival of Classical Dance and Music is held there in
+                    the third week of March.
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img3"></div>
+            <div class="child2" id="box2">
+                <h1><b>Ajanta Caves:-</b></h1>
+                <p>Ajanta Caves, Buddhist rock-cut cave temples and monasteries, located near Ajanta village, north-central Maharashtra state, western India, that are celebrated for their wall paintings. The temples are hollowed out of granite cliffs on
+                    the inner side of a 70-foot (20-metre) ravine in the Wagurna River valley 65 miles (105 km) northeast of Aurangabad, at a site of great scenic beauty
+                    <br>The group of some 30 caves was excavated between the 1st century BCE and the 7th century CE and consists of two types, caityas (“sanctuaries”) and viharas (“monasteries”). Although the sculpture, particularly the rich ornamentation
+                    of the caitya pillars, is noteworthy, it is the fresco-type paintings that are the chief interest of Ajanta. These paintings depict colourful Buddhist legends and divinities with an exuberance and vitality that is unsurpassed in Indian
+                    art. The caves were designated a UNESCO World Heritage site in 1983.
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img4"></div>
+            <div class="child2" id="box2">
+                <h1><b>Lonar Crater Lake:-</b> </h1>
+                <p>I quickly tried to adjust my eyes to the sudden bright light. I stepped out of the bus, still slightly groggy from my power nap and looked as far as my vision permitted — a vast, desolate stretch of land with not much in sight, barring
+                    a few trees, and the blazing sun. I walked a few steps further and spotted a sliver of green, which soon paved the way for a massive lake, shining under the harsh
+                    <br>After an excruciatingly long and seemingly endless journey from Aurangabad, we reached the Lonar Crater on a hot, dusty afternoon. According to mythology, Lonar acquired its name from Lonasura, a demon who was killed by Lord Vishnu.
+                    The crater and the lake which reside in a quiet corner of the Buldhana district in the state of Maharashtra made headlines nearly two years ago, when the water of the lake turned pink (more on that later), once again grabbing eyeballs
+                    after almost two centuries — since its discovery. Talking about the lake’s discovery takes one back in time, almost two centuries ago when J.E. Alexander first discovered it.
+                    <br>Over the years various stories — both mythological and scientific — revolved around the creation of the crater, its water and its significance. But what was upheld in the end was a result of a deep scientific study that took a
+                    while to come to fruition. Classified as a Geo-heritage monument — with both saline and alkaline water — the crater is believed to be a result of a meteor collision. Today it even stands as a wildlife sanctuary for the conservation
+                    of animals, plants as well as the water of the lake.
+                    <br> A slight rustle of the leaves and I was brought back to real time, only to dive back into Buldana’s history and its ancient tales. The Buldana district where the Lonar Crater is located has traded various hands in terms of its
+                    rulers. It was once a part of the Maurya empire and later ruled by the Chalukyas, Mughals, Yadavas, Nizams and the British for significant periods of time and it was during the reign of these rulers that trade flourished in the region.
+                    While not all rulers left behind a historical trail, the Yadavas have left a legacy behind in the form of temples, namely Gomukh, Daitya Sudan, Kamalja Devi amongst others. While here, one can find numerous small temples dotted along
+                    the periphery of the lake. Known as Yadava temples, they are flocked by the locals during dawn and dusk. As for us, the heat was a major deterrent, and hence the best advised time to visit the crater is during the months of October
+                    to early March. A few metres away from the main lake — approximately seven metres if some are to be believed — lies a small circular depression that is believed to be caused by a fragment of the main meteor. And right next to this
+                    small lake — known as Ambar Lake or the chota Lonar — one can find a Hanuman temple. It is only upon visiting that one realises that the area surrounding the lake is doused in history, mythology and science in equal measures. The Lonar
+                    Crater is truly a cosmic wonder. Come to think of it, a slight movement in the cosmos and an indelible imprint — as deep as 500 feet and 1.8 kilometres wide — has permanently found home in a plateau in Maharashtra</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img5"></div>
+            <div class="child2" id="box2">
+                <h1><b>Konark Sun Temple:-</b></h1>
+                <p>Located by the banks of the river Tungabhadra in Karnataka, Hampi is one of the most famous historical places in India. Hampi is known for its historical ruins and relics of the grand Vijaynagar Kingdom and the marvelous showcase of art
+                    has made it one of the Seven Wonders in India. The charming site is recognized as World Heritage Site by UNESCO and comprises of stunning architectural ruins of temples and monuments.
+                    <br> What’s special: Monkey Temple, Archeological Museum, Vijaya Vittala Temple, Royal Enclosure, Virupaksha Temple, Queen’s Bath, and Riverside Ruins
+                    <br> How to Reach
+                    <br> By air: Hubli Airport is 167.3 km away.
+                    <br> By rail: Hospet railway station is located 13 km.
+                    <br> By road: The driving distance from Bangalore is 343 km via NH 48 and NH 50.</p>
+            </div>
+
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img6"></div>
+            <div class="child2" id="box2">
+                <h1><b>Hawa Mahal:-</b></h1>
+                <p>Located in the Pink City of Jaipur, the palace of winds is one of the most frequented places by tourists. It is constructed with pink and red sandstone, which gives the monument a royal look. It is a towering five storeyed palace housing
+                    around 953 windows. For the history enthusiasts, this palace was built by Maharaja Pratap Sawai Singh to entertain women of the royal household. History says that they used to sit by the window and watch the daily processions of the
+                    city and its people. If you plan to visit this wonder, keep an eye out for the small museum right next to it to pick up some miniature paintings and ancient relics. If you stand right at the top, you will get a beautiful view of the
+                    Jantar Mantar, City Palace and Sireh Deori Bazaar in the other direction. You can visit the Hawa Mahal from 9:00 am to 5:30 pm.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img7"></div>
+            <div class="child2" id="box2">
+                <h1><b>Qutub Minar:-</b></h1>
+                <p>Located in the capital of the country, the towering Qutub Mina is influenced by Persian architecture and rises to around 250 feet into the sky. The higher these 5 storeys go, the narrower they get. While the first three storeys are made
+                    of red sandstone, the fourth storey is made of marble and the fifth is a blend of the two. Qutab-ud-din Aibak initiated the construction of this monument. He was the first Muslim ruler of Delhi. However, he could only finish construction
+                    till the basement. Soon after, his successor Iltutmush constructed the next three storeys and then Firoz Shah Tughluk constructed the fifth storey. The Qutub Minar is also compared to the Leaning Tower of Pisa, owing to its structure.
+                    There are 379 steps inside the tower, but unfortunately these have been closed to the public for quite a while now. You can visit this famous landmark between 6 am to 6 pm.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img8"></div>
+            <div class="child2" id="box2">
+                <h1><b>Hampi:-</b></h1>
+                <p>Hampi is one of the famous historical places in India where you can still find the ruins of the Vijaynagar Kingdom. Recognized by UNESCO as World Heritage Site, this is one of the places that every history aficionado falls in love with.
+                    <br>Best time to travel: October to March
+                    <br>Opening time: 6 am to 6 pm (Vittala temple)
+                    <br>Entry fee: INR 30 for Indians and INR 500 for foreign nationals
+                    <br>Things to do: Visit the temple ruins
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img9"></div>
+            <div class="child2" id="box2">
+                <h1><b>Khajuraho:-</b></h1>
+                <p>It is a cluster of Hindu and Jain temple structures. Khajuraho is located in Madhya Pradesh and is visited by tourists from across the world. The sculptures and artwork here are worth witnessing.
+                    <br>Best time to travel: November to February
+                    <br>Opening time: 8 am to 6 pm
+                    <br>Entry fee: INR 40 for Indians and INR 600 for foreign nationals
+                    <br>Things to do: Visit Kandariya Mahadev temple, Lakshmana temple, Devi Jagadambi temple, etc. </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img10"></div>
+            <div class="child2" id="box2">
+                <h1><b>Golden Temple:-</b></h1>
+                <p>Harmandir Sahib, more popularly known as the Golden Temple and Durbar Sahib, is the holiest shrine of Sikhism. Adorned inside and out with sections from the Holy Granth Sahib, it is one of the most popular religious places in India. The
+                    gold-plated structure showcases copper domes and sparkling white marble walls, reflecting Islamic-style floral patterns. Its serenity & the charm of the place, clean & hygienic ambiance, and spiritual solace have made it one of the
+                    extremely popular wonders in India.
+                    <br>What’s special: Guru ka Langar, Hari Mandir, Amrit Sarovar, and Central Sikh Museum
+                    <br>What’s special: Guru ka Langar, Hari Mandir, Amrit Sarovar, and Central Sikh Museum
+                    <br>What’s special: Guru ka Langar, Hari Mandir, Amrit Sarovar, and Central Sikh Museum
+                    <br>By air: Sri Guru Ram Dass Jee International Airport (ATQ) is situated 11 km from the city-centre. There are daily flights from Indian as well as some international cities.
+                    <br>By rail: Amritsar Railway Station is well connected to other Indian cities.
+                    <br>By road: Buses are available from other cities in Punjab as well as from Delhi, Shimla, and Jammu.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img11"></div>
+            <div class="child2" id="box2">
+                <h1><b>Nalanda:-</b></h1>
+                <p>Located in proximity to Patna, Nalanda is popular for being an ancient education center in the country. Nalanda University is one of the oldest universities in the whole world. You can find the excavated ruins of Nalanda on visiting this
+                    place.
+                    <br>Best time to travel: November to February
+                    <br>Opening time: 9 am to 5 pm
+                    <br>Entry fee: INR 15 for Indians and INR 200 for foreign nationals
+                    <br>Things to do: Visit Nalanda Archeological Museum, Hieun Tsang Memorial Hall, Xuan Zang Memorial, etc.
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img12"></div>
+            <div class="child2" id="box2">
+                <h1><b>Lotus Temple:-</b></h1>
+                <p>
+                    It is a significant Bahai’s temple made in the shape of a lotus flower. The fascinating structure of this temple, built in 1986, is set in the midst of verdant scenic gardens. Lotus Temple is built with pure white marble and looks startling even from
+                    far away. Lotus is a symbol common to Hinduism, Islam, Jainism and Buddhism, and thus, the architect of this temple- “Fariborz Sahba” chose it as a structure of this shrine. Devotees and tourists of all the religions visit this place.
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img13"></div>
+            <div class="child2" id="box2">
+                <h1><b>Red Fort:-</b></h1>
+                <p>The place where the first prime minister of India, Jawahar Lal Nehru declared independence of India by hoisting the tricolor in 1947, Red Fort is the symbol of the nation’s integrity and prestige. Fabulous audience hall, a bazaar and a
+                    fortress built with red sandstone are there in the complex. It was built by Mughal ruler Shah Jahan and is considered as one of the best architectural work of that era. You may choose any of the wonders mentioned above for your next
+                    vacation and I am certain that you will return with bag full of memories that you will never forget for a long time!
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img14"></div>
+            <div class="child2" id="box2">
+                <h1><b>Meenakshi Amman Temple:-</b></h1>
+                <p>The prodigious sized complex of Meenakshi Temple is dedicated to Lord Shiva. Shiva is popular as Sundareshwara and his spouse Parvati as Meenakshi. The credit of building this temple as it is seen today goes to Nayaks. However, Kulasekara
+                    Pandya constructed the original temple. A high wall encloses the temple complex and at the core of complex, there are two sanctums for Sundareshwara and Meenakshi. Many smaller shrines and resplendent pillared halls surround these
+                    sanctums. The 12 goporas here are incredibly impressive. The mounting towers soar from the base made of solid granite. These towers hold stucco engravings of mythical animals and deities painted in multifarious hues.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img15"></div>
+            <div class="child2" id="box2">
+                <h1><b>Charminar:-</b></h1>
+                <p>The trip to Hyderabad is certainly incomplete without visiting the epochal monument Charminar. Literelly meaning the mosque of four minarets, Charminar is known as the Arc De Triomphe of the East. This monument was constructed in the year
+                    1591 by the fifth sultan of Qutub Shahi Dynasty- Mohammad Quli Shah. The four minarets honor the first four caliphs of Islam religion.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img16"></div>
+            <div class="child2" id="box2">
+                <h1><b>Gateway Of India:-</b></h1>
+                <p>The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.
+                    <br>Built in Indo-Saracenic style, the foundation stone for the Gateway of India was laid on 31 March 1911. The structure is an arch made of basalt, 26 metres (85 feet) high. The final design of George Wittet was sanctioned in 1914
+                    and the construction of the monument was completed in 1924. The Gateway was later used as a symbolic ceremonial entrance to India for Viceroys and the new Governors of Bombay. It served to allow entry and access to India.
+                    <br>The Gateway of India is located on the waterfront at Apollo Bunder area at the end of Chhatrapati Shivaji Marg in South Mumbai and overlooks the Arabian Sea. The monument has also been referred to as the Taj Mahal of Mumbai, and
+                    is the city’s top tourist attraction.
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img17"></div>
+            <div class="child2" id="box2">
+                <h1><b>Gomateshwara:-</b></h1>
+                <p>The Gomateshwara is a giant statue, around 60 feet high, located at Shravanabelagola, Karnataka. It was built by the minister of Ganga Dynasty during AD 981. This statue was built in respect of the first Jain Tirthankara grandson, Bahubali
+                    (Gomateshwara), when he attained salvation for a year by standing motionless.
+                    <br>The best time to visit this place is during the event of Maha-Masak-Abhishek, every 12 to 14 years. During this event, the statue is washed with gallons of water, honey, milk and different types of sandalwood pastes.
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img18"></div>
+            <div class="child2" id="box2">
+                <h1><b>Staute Of Unity:-</b></h1>
+                <p>The tallest statue in the world looks surreal against the backdrop of the stunning Vindhyachal and Satpura hills in Gujarat’s Kevadia. Dedicated to Indian statesman and Independence activist Sardar Vallabhbhai Patel, this magnanimous statue
+                    rises as high as 182 metres (597 feet). The monument also offers a number of experiences from a stay in sprawling rooms at the location to jungle safaris to a trip to the Sardar Sarovar Dam on the Narmada riverbed.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img19"></div>
+            <div class="child2" id="box2">
+                <h1><b>Jantar Mantar:-</b></h1>
+                <p>Did you know that India abodes the largest sundial on the planet? You will be amazed to know that it tells the time that lags only two seconds from the actual local time. It is the Jantar Mantar. The Jantar Mantar of Jaipur is the biggest
+                    stone observatory of the world. Constructed by Maharaja Jai Singh in the 18th century, Jantar Mantar holds fourteen geometric devices used to compute the time of the day. This monument is listed among the UNESCO World Heritage Sites
+                    in India.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img20"></div>
+            <div class="child2" id="box2">
+                <h1><b>India Gate:-</b></h1>
+                <p>The very first monument that comes to our mind while talking about architecture in Delhi is the India Gate.
+                    <br>It is the greatest epitome of Tourism of Delhi. Originally, this was known as the All India War Memorial which held the name of all the Indian soldiers that lost their life during the First World War.
+                    <br>The construction of this monument was finished in the year 1931.
+                </p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img21"></div>
+            <div class="child2" id="box2">
+                <h1><b>DhudhSagar:-</b></h1>
+                <p>Dudhsagar Falls is about 60 km from Panaji on the border of Goa and Karnataka state of India. Dudhsagar waterfall is located inside the Mollem National Park and surrounded by lush green forest which attracts a lot of tourists. Dudhsagar
+                    waterfall falls down from a high mountain of 310 metres (1017 ft) and looks absolutely white like milk when its water flows down from the cliffs at high altitude.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img22"></div>
+            <div class="child2" id="box2">
+                <h1><b>Mysore Palace:-</b></h1>
+                <p>Mysore palace is one of the most famous places to visit in Mysore. Reflecting Rajput, Gothic and Islamic architectural influences, this palace is a sight to behold when illuminated. With Taj Mahal being the first, Mysore Palace is the
+                    second most frequented historical megalith in the country. The best time to visit this monument and witness it in all its glory would be during Dussehra with its light and sound shows inside the Old Fort.</p>
+            </div>
+        </div>
+        <div class="child" id="box">
+            <div class="child1" id="img23"></div>
+            <div class="child2" id="box2">
+                <h1><b>Sanchi:-</b></h1>
+                <p>Sanchi is famous as a paradigm of Buddhist architecture and culture. Sanchi Stupa is the most momentous of all the monuments in Sanchi. Moreover, Sanchi Stupa is among the most preserved stupas in the central part of India as well. During
+                    the reign of Shunga, Sanchi Stupa was expanded and decorated with stairways and railings. A beautiful harmika was placed on the top of the edifice. The monument is bejeweled with astounding designs and motifs. Interestingly, Lord Buddha
+                    has been emblematically represented in Sanchi Stupa in the figure of a tree and other inanimate forms.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
